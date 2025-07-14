@@ -1,0 +1,16 @@
+:root {
+  --text-color: #333;
+  --background-color: #f0f0f0;
+}
+
+[data-theme='dark'] {
+  --text-color: #f0f0f0;
+  --background-color: #333;
+}
+
+.App {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
